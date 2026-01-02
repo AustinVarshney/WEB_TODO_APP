@@ -65,7 +65,7 @@ export default function TodoApp(){
             </div>
             <div id='innerContainer2'>
                 <input placeholder="Type your Task" id="inputElement" value={newTodo} onChange={updateTodoValue}/>&nbsp;
-                <button id="buttonElement" onClick={addTodo}>Add <AddIcon/></button>
+                <button id="buttonElement" onClick={addTodo}>Add <span style={{fontSize: "1.7rem", marginLeft: "0.3rem"}}>+</span></button>
             </div>
             <div id="innerContainer3">
                 <ul>
