@@ -3,11 +3,9 @@
 }
 
 #outerContainer{
-    height: 25rem;
+    height: 35rem;
     width: 40rem;
     border: 1px solid black;
-    margin: auto;
-    margin-top: 10rem;
     border-radius: 1rem;
     overflow: auto;
 }
